@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ishconnect.rw/sitemap.xml
+Sitemap: https://webcare.ishconnect.rw/sitemap.xml
