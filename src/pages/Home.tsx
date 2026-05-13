@@ -4,6 +4,7 @@ import { TrustedBy } from "@/components/TrustedBy";
 import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { PortfolioShowcase } from "@/components/PortfolioShowcase";
+import { WebsiteQuoteTool } from "@/components/WebsiteQuoteTool";
 import { Portfolio } from "@/components/Portfolio";
 import { WhyUs } from "@/components/WhyUs";
 import { Vision } from "@/components/Vision";
@@ -22,6 +23,7 @@ export default function Home() {
         <About />
         <Services />
         <PortfolioShowcase />
+        <WebsiteQuoteTool />
         <Portfolio />
         <WhyUs />
         <Vision />
