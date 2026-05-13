@@ -1,18 +1,13 @@
 import { FadeIn } from "./FadeIn";
 
 const trustedClients = [
-  { name: "EdTech Solutions", type: "EdTech Partner", country: "Rwanda" },
-  { name: "ISHVexa", type: "Technology Partner", country: "Rwanda" },
-  { name: "Rwanda Coding Academy", type: "Education", country: "Kigali, Rwanda" },
-  { name: "Greenhills Academy", type: "International School", country: "Kigali, Rwanda" },
-  { name: "Kiyumba TVET", type: "Vocational College", country: "Rwanda" },
-  { name: "Ntare-Louis Enlund School", type: "Secondary School", country: "Uganda" },
-  { name: "Université du Rwanda", type: "University", country: "Kigali, Rwanda" },
-  { name: "AUCA", type: "University", country: "Kigali, Rwanda" },
-  { name: "St. Mary's College", type: "Secondary School", country: "Uganda" },
-  { name: "INES Ruhengeri", type: "Institute", country: "Musanze, Rwanda" },
-  { name: "Kaiserslautern School", type: "International School", country: "Tanzania" },
-  { name: "Hillcrest Secondary", type: "Secondary School", country: "Nairobi, Kenya" },
+  { name: "ISHConnLab", type: "", country: "" },
+  { name: "EdTech Solution", type: "", country: "" },
+  { name: "Kiyumba TSS", type: "", country: "" },
+  { name: "Ingazi", type: "", country: "" },
+  { name: "GS Gishore", type: "", country: "" },
+  { name: "GS Kabuga", type: "", country: "" },
+  { name: "Ngarambe Academy", type: "", country: "" },
 ];
 
 export function TrustedBy() {
