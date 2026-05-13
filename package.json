@@ -1,0 +1,12 @@
+{
+  "name": "webcare",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix artifacts/webcare run dev",
+    "build": "npm --prefix artifacts/webcare run build",
+    "serve": "npm --prefix artifacts/webcare run serve",
+    "typecheck": "npm --prefix artifacts/webcare run typecheck"
+  }
+}
