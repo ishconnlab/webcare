@@ -2,16 +2,21 @@ export interface Lesson {
   id: string;
   title: string;
   explanation: string;
+  bullets?: string[];
   example?: string;
   exampleLang?: string;
   exercise?: string;
   code?: string;
   codeLang?: string;
+  editorCode?: string;
+  editorLang?: string;
+  mockup?: string;
 }
 
 export interface Level {
   id: string;
   label: string;
+  cheatSheet?: string[];
   lessons: Lesson[];
 }
 
