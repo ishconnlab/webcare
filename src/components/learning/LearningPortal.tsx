@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, BookOpen } from "lucide-react";
+import { Menu, BookOpen, Home } from "lucide-react";
 import { categories, getCourse } from "./courseData";
 import { useProgress } from "./useProgress";
 import { FolderSidebar } from "./FolderSidebar";
@@ -30,6 +30,10 @@ export function LearningPortal() {
               <button onClick={() => setSidebarOpen(!sidebarOpen)} className="lg:hidden flex items-center gap-1 text-xs text-gray-500 hover:text-gray-800 transition-colors">
                 <Menu className="w-4 h-4" />
               </button>
+              <a href="/" className="flex items-center gap-1 text-xs text-gray-400 hover:text-gray-700 transition-colors mr-1">
+                <Home className="w-3.5 h-3.5" />
+              </a>
+              <span className="text-gray-300 text-xs mr-1">/</span>
               <BookOpen className="w-4 h-4 text-green-500" />
               <span className="text-xs font-bold text-gray-800">Learning Portal</span>
               {selectedCourse && (
