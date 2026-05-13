@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
-import { Sparkles, ClipboardCheck, ArrowRight } from "lucide-react";
+import { Sparkles, ClipboardCheck, BookOpen, ArrowRight } from "lucide-react";
 import { Badge } from "@/components/Badge";
 import { FadeIn } from "@/components/FadeIn";
 import { WebsiteNeedsAssessment } from "@/components/WebsiteNeedsAssessment";
@@ -16,11 +16,11 @@ function FreeToolsLanding() {
             Free Tools for Schools &amp; Businesses
           </h1>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed">
-            Powerful tools to help you build, plan, and improve your online presence — no cost, no signup.
+            Powerful tools to help you build, learn, and grow — no cost, no signup.
           </p>
         </FadeIn>
 
-        <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <FadeIn delay={0.05}>
             <a href="/portfolio-builder" className="block group bg-white rounded-2xl border border-gray-200 hover:border-orange-300 hover:shadow-md transition-all p-6 sm:p-8">
               <div className="w-12 h-12 rounded-2xl bg-orange-50 group-hover:bg-orange-100 flex items-center justify-center mb-4 transition-colors">
@@ -49,6 +49,21 @@ function FreeToolsLanding() {
                 <ClipboardCheck className="w-4 h-4" /> Scroll down to try
               </div>
             </div>
+          </FadeIn>
+
+          <FadeIn delay={0.15}>
+            <a href="/learning-portal" className="block group bg-white rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-md transition-all p-6 sm:p-8">
+              <div className="w-12 h-12 rounded-2xl bg-green-50 group-hover:bg-green-100 flex items-center justify-center mb-4 transition-colors">
+                <BookOpen className="w-6 h-6 text-green-500" />
+              </div>
+              <h2 className="text-lg font-black text-gray-900 mb-2" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>Learning Portal</h2>
+              <p className="text-gray-500 text-sm leading-relaxed mb-4">
+                20+ courses in Programming, Web Dev, Data Science, AI, Cybersecurity, and more. Step-by-step with built-in progress tracking.
+              </p>
+              <div className="flex items-center gap-2 text-green-500 font-bold text-sm group-hover:gap-3 transition-all">
+                Start learning <ArrowRight className="w-4 h-4" />
+              </div>
+            </a>
           </FadeIn>
         </div>
       </div>

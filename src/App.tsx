@@ -3,6 +3,7 @@ import { ScrollToSection } from "@/components/ScrollToSection";
 import Home from "@/pages/Home";
 import PortfolioBuilder from "@/pages/PortfolioBuilder";
 import FreeTools from "@/pages/FreeTools";
+import LearningPortalPage from "@/pages/LearningPortal";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/contact" element={<Home />} />
         <Route path="/portfolio-builder" element={<PortfolioBuilder />} />
         <Route path="/free-tools" element={<FreeTools />} />
+        <Route path="/learning-portal" element={<LearningPortalPage />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
