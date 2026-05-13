@@ -10,6 +10,7 @@ const CALL_URL = import.meta.env.VITE_CALL_URL ?? "tel:+250787377750";
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
+  { label: "Portfolio Builder", href: "/portfolio-builder" },
   { label: "Our Work", href: "/#portfolio" },
   { label: "Why Us", href: "/#why" },
   { label: "Contact", href: "/contact" },
